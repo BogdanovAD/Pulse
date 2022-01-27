@@ -40,7 +40,7 @@ gulp.task('watch', function () {
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
 
 function deploy(cb) {
-    ghPages.publish(path.join(process.cwd(), './src'), cb);
+    ghPages.publish(path.join(process.cwd(), './src'), { dotfiles: true }, cb);
 }
 exports.deploy = deploy;
 // npx gulp deploy
