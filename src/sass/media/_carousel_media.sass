@@ -1,0 +1,25 @@
+@media (max-width: 850px)
+    .carousel
+        &__inner
+            flex-wrap: wrap
+            align-content: center
+            .slick-dots
+                display: flex
+                justify-content: space-between
+                width: 60px
+                margin: 0 auto
+                margin-top: 20px
+                padding: 0
+                li
+                    list-style: none
+                    button
+                        background-color: #9c9c9c
+                        border: none
+                        font-size: 0
+                        width: 15px
+                        height: 15px
+                        border-radius: 100%
+                .slick-active
+                    button
+                        background-color: $main-color
+                        border: 1px solid #000
