@@ -185,4 +185,7 @@ $(document).ready(function () {
             $('.pageup').fadeOut('fast');
         }
     });
+
+    //Animation
+    new WOW().init();
 });
