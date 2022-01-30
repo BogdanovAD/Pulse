@@ -7,8 +7,8 @@ $(document).ready(function () {
         speed: 600,
         fade: true,
         cssEase: 'linear',
-        prevArrow: '<i type="button" class="slick-prev fas fa-chevron-left"></i>',
-        nextArrow: '<i type="button" class="slick-next fas fa-chevron-right"></i>',
+        prevArrow: '<i class="slick-prev fas fa-chevron-left"></i>',
+        nextArrow: '<i class="slick-next fas fa-chevron-right"></i>',
         responsive: [
             {
                 breakpoint: 850,
